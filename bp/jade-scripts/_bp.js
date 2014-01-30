@@ -3,9 +3,9 @@
   var fs, jade, Names, Relation, Page, config, _, filters;
   fs = require('fs');
   jade = require('jade');
-  Names = require('./Names');
-  Relation = require('./Relation');
-  Page = require('./Page');
+  Names = require('./names');
+  Relation = require('./relation');
+  Page = require('./page');
   config = require('./_bp-config');
   _ = require('underscore');
   import$(jade.filters, filters = require('./_bp-filters'));
